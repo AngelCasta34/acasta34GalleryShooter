@@ -1,0 +1,45 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "TinyTown.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "#tiny-town-packed": {
+            "scaleInDock": 1
+        },
+        "TinyTown.tmx": {
+            "scale": 5.34375,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 79.906432748538,
+                "y": 79.90643274853801
+            }
+        },
+        "TinyTown.tmx#tiny-town-packed": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/casta/Documents/120/GalleyShooterImplementation/assets",
+    "last.imagePath": "C:/Users/casta/Documents/120/GalleyShooterImplementation/assets",
+    "map.height": 10,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 10,
+    "openFiles": [
+        "TinyTown.tmx"
+    ],
+    "project": "TinyTown.tiled-project",
+    "recentFiles": [
+        "TinyTown.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
