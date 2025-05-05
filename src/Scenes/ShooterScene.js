@@ -8,16 +8,10 @@ class ShooterScene extends Phaser.Scene {
         this.baseX = 320;
         this.baseY = 550;
         this.bulletSpeed = 12;
-
-        // placeholder for the boss sprite
         this.boss = null;
-
-        // direction the boss moves horizontally
         this.bossDirection = 1;
-
         // maximum health of the boss
         this.maxBossHealth = 500;
-
         // reference to the boss looped sound
         this.bossSound = null;
     }
@@ -25,7 +19,7 @@ class ShooterScene extends Phaser.Scene {
     preload() {
         this.load.setPath("./assets/");
 
-        // load the tilemap and its tileset image
+        // load the tilemap
         this.load.tilemapTiledJSON("map", "TinyTownMap.json");
         this.load.image("tiny_town_tiles", "kenny-tiny-town-tilemap-packed.png");
 
@@ -102,15 +96,12 @@ class ShooterScene extends Phaser.Scene {
             null,
             this
         );
-
-        // initialize the first run of the game
         this.initGame();
     }
 
     update() {
         const my = this.my;
 
-        // if game is over, listen for restart key
         if (this.gameOver) {
             if (Phaser.Input.Keyboard.JustDown(this.keys.restart)) {
                 this.initGame();
@@ -193,7 +184,7 @@ class ShooterScene extends Phaser.Scene {
         }
     }
 
-    // reset all game state, recreate the player avatar, and rehook collisions
+    // reset all game state
     initGame() {
         const my = this.my;
 
@@ -287,7 +278,7 @@ class ShooterScene extends Phaser.Scene {
         const msg = this.add.text(
             100,
             250,
-            "NEW ENEMY APPROACHES LETS UPGRADE",
+            "NEW ENEMY APPROACHES",
             {
                 fontSize: "28px",
                 fill: "#ff0",
