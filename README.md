@@ -17,7 +17,3 @@ A looping background track plays during the boss fight, while a separate sound i
 
 This project is hosted publicly on GitHub and is also deployed using GitHub Pages. This makes it easy to share and play from any device with a web browser. 
 The repository contains all code, assets, and instructions necessary to run or modify the game.
-
-In summary, Tiny Town: Gallery Shooter is a small scale but fully functional game that demonstrates core game development principles using JavaScript and Phaser. 
-It serves as both a learning project and a creative expression of arcade inspired gameplay.
-
