@@ -18,11 +18,11 @@ class TinyTown extends Phaser.Scene {
         this.grassLayer.setScale(4.0);
 
         // Optional second layer (only if it exists)
-        this.treeLayer = this.map.createLayer("Trees-n-Fences", this.tileset, 0, 0);
+        this.treeLayer = this.map.createLayer("Tree-n-Fences", this.tileset, 0, 0);
         if (this.treeLayer) this.treeLayer.setScale(4.0);
 
         // Show instructions
-        document.getElementById('description').innerHTML = '<h2>Welcome to Ends Deep<br>Press ENTER to start!</h2>';
+        document.getElementById('description').innerHTML = '<h2>Welcome to Tiny Town<br>Press ENTER to start!</h2>';
 
         // Add keyboard input for ENTER
         this.enterKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.ENTER);
